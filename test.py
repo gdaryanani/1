@@ -6,7 +6,7 @@ def main():
     win.setBackground("blue")
     message = Text(Point(300,400), "Hello!")
     message.setSize(36)
-    message.setTextColor("blue")
+    message.setTextColor("white")
     message.draw(win)
     c = Circle(Point(500,500), 100)
     c.draw(win)
