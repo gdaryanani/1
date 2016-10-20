@@ -3,7 +3,7 @@ import time
 
 def main():
     win = GraphWin("test",1280,710)
-    win.setBackground("green")
+    win.setBackground("blue")
     message = Text(Point(300,400), "Hello!")
     message.setSize(36)
     message.setTextColor("blue")
