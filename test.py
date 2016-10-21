@@ -5,7 +5,7 @@ def main():
     win = GraphWin("test",1280,710)
     win.setBackground("blue")
     message = Text(Point(300,400), "Hello!")
-    message.setSize(36)
+    message.setSize(37)
     message.setTextColor("white")
     message.draw(win)
     c = Circle(Point(500,500), 100)
